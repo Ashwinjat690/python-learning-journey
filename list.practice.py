@@ -1,0 +1,11 @@
+num = [10, 20, 30, 40, 50]
+num2 = num.copy()
+print(num[2])
+num.append(60)
+num3 = num.copy()
+num.remove(10)
+num3.insert(-1,70) 
+num2.reverse()
+print(num)
+print(num2)
+print(num3)
